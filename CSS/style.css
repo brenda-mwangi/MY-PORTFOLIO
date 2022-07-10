@@ -39,9 +39,9 @@ ul{
     opacity: 1;
 }
 
-.hidden{
-    display: none !important;
-}
+/* .hidden{
+    display: none;
+} */
 
 .main-content{
     padding-left: 270px;

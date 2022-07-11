@@ -135,6 +135,9 @@ ul{
     background: rgb(253, 220, 226);
 }
 
+.shadow-dark{
+    box-shadow: 10px 5px 10px rgba(48, 46, 77, 0.25);
+}
 .aside{
     width: 270px;
     background: var(--bg-black-100);
@@ -456,6 +459,43 @@ h3.my-profession{
     margin-top: 30px;
 }
 
-.about .about-content .experience{
-    
+.about .about-content .education{
+    /* background-color: greenyellow; */
 }
+
+.about .about-content h3.title{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--text-black-900);
+}
+
+.about .about-content .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* background-color: green; */
+}
+
+.about .about-content .timeline{
+    background-color: var(--bg-black-100);
+    padding: 30px 15px;
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    width: 100%;
+    transition: 0.4s;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(48, 46, 77, 0.15);
+}
+
+.about .about-content .timeline:hover{
+    background-color: var(--bg-black-100);
+    padding: 30px 15px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    transition: 0.4s;
+    box-shadow: 10px 12px 15px rgba(48, 46, 77, 0.15);
+}
+
+
+

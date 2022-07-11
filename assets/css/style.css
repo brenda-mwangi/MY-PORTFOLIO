@@ -459,10 +459,6 @@ h3.my-profession{
     margin-top: 30px;
 }
 
-.about .about-content .education{
-    /* background-color: greenyellow; */
-}
-
 .about .about-content h3.title{
     font-size: 24px;
     margin-bottom: 30px;
@@ -473,7 +469,6 @@ h3.my-profession{
 .about .about-content .timeline-box{
     flex: 0 0 100%;
     max-width: 100%;
-    /* background-color: green; */
 }
 
 .about .about-content .timeline{
@@ -496,6 +491,3 @@ h3.my-profession{
     transition: 0.4s;
     box-shadow: 10px 12px 15px rgba(48, 46, 77, 0.15);
 }
-
-
-
